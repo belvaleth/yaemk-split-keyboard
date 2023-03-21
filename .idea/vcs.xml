@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Firmware" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Firmware/lib/chibios" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Firmware/lib/chibios-contrib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Firmware/lib/chibios-contrib/ext/mcux-sdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Firmware/lib/googletest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Firmware/lib/lufa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Firmware/lib/printf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Firmware/lib/vusb" vcs="Git" />
+  </component>
+</project>

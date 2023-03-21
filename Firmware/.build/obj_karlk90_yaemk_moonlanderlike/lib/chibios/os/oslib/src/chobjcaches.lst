@@ -1,0 +1,350 @@
+   1              		.cpu cortex-m4
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 23, 1
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 2
+   9              		.eabi_attribute 34, 0
+  10              		.eabi_attribute 18, 2
+  11              		.file	"chobjcaches.c"
+  12              		.section	.gnu.debuglto_.debug_info,"e",%progbits
+  13              	.Ldebug_info0:
+  14              		.hidden	chobjcaches.c.f3ab4630
+  15              		.weak	chobjcaches.c.f3ab4630
+  16              	chobjcaches.c.f3ab4630:
+  17 0000 67000000 		.4byte	0x67
+  18 0004 0400     		.2byte	0x4
+  19 0006 00000000 		.4byte	.Ldebug_abbrev0
+  20 000a 04       		.byte	0x4
+  21 000b 01       		.uleb128 0x1
+  22 000c 4D000000 		.4byte	.LASF10
+  23 0010 0C       		.byte	0xc
+  24 0011 BA010000 		.4byte	.LASF11
+  25 0015 0D000000 		.4byte	.LASF12
+  26 0019 00000000 		.4byte	.Ldebug_line0
+  27 001d 02       		.uleb128 0x2
+  28 001e 04       		.byte	0x4
+  29 001f 05       		.byte	0x5
+  30 0020 696E7400 		.ascii	"int\000"
+  31 0024 03       		.uleb128 0x3
+  32 0025 04       		.byte	0x4
+  33 0026 07       		.byte	0x7
+  34 0027 00000000 		.4byte	.LASF0
+  35 002b 03       		.uleb128 0x3
+  36 002c 02       		.byte	0x2
+  37 002d 07       		.byte	0x7
+  38 002e E6010000 		.4byte	.LASF1
+  39 0032 03       		.uleb128 0x3
+  40 0033 01       		.byte	0x1
+  41 0034 06       		.byte	0x6
+  42 0035 76010000 		.4byte	.LASF2
+  43 0039 03       		.uleb128 0x3
+  44 003a 02       		.byte	0x2
+  45 003b 05       		.byte	0x5
+  46 003c 82010000 		.4byte	.LASF3
+  47 0040 03       		.uleb128 0x3
+  48 0041 04       		.byte	0x4
+  49 0042 05       		.byte	0x5
+  50 0043 B1010000 		.4byte	.LASF4
+  51 0047 03       		.uleb128 0x3
+  52 0048 08       		.byte	0x8
+  53 0049 05       		.byte	0x5
+  54 004a F9010000 		.4byte	.LASF5
+  55 004e 03       		.uleb128 0x3
+  56 004f 01       		.byte	0x1
+  57 0050 08       		.byte	0x8
+  58 0051 A3010000 		.4byte	.LASF6
+  59 0055 03       		.uleb128 0x3
+  60 0056 04       		.byte	0x4
+  61 0057 07       		.byte	0x7
+  62 0058 3B000000 		.4byte	.LASF7
+  63 005c 03       		.uleb128 0x3
+  64 005d 08       		.byte	0x8
+  65 005e 07       		.byte	0x7
+  66 005f 8C010000 		.4byte	.LASF8
+  67 0063 03       		.uleb128 0x3
+  68 0064 01       		.byte	0x1
+  69 0065 08       		.byte	0x8
+  70 0066 E1010000 		.4byte	.LASF9
+  71 006a 00       		.byte	0
+  72              		.section	.gnu.debuglto_.debug_abbrev,"e",%progbits
+  73              	.Ldebug_abbrev0:
+  74 0000 01       		.uleb128 0x1
+  75 0001 11       		.uleb128 0x11
+  76 0002 01       		.byte	0x1
+  77 0003 25       		.uleb128 0x25
+  78 0004 0E       		.uleb128 0xe
+  79 0005 13       		.uleb128 0x13
+  80 0006 0B       		.uleb128 0xb
+  81 0007 03       		.uleb128 0x3
+  82 0008 0E       		.uleb128 0xe
+  83 0009 1B       		.uleb128 0x1b
+  84 000a 0E       		.uleb128 0xe
+  85 000b 10       		.uleb128 0x10
+  86 000c 17       		.uleb128 0x17
+  87 000d 00       		.byte	0
+  88 000e 00       		.byte	0
+  89 000f 02       		.uleb128 0x2
+  90 0010 24       		.uleb128 0x24
+  91 0011 00       		.byte	0
+  92 0012 0B       		.uleb128 0xb
+  93 0013 0B       		.uleb128 0xb
+  94 0014 3E       		.uleb128 0x3e
+  95 0015 0B       		.uleb128 0xb
+  96 0016 03       		.uleb128 0x3
+  97 0017 08       		.uleb128 0x8
+  98 0018 00       		.byte	0
+  99 0019 00       		.byte	0
+ 100 001a 03       		.uleb128 0x3
+ 101 001b 24       		.uleb128 0x24
+ 102 001c 00       		.byte	0
+ 103 001d 0B       		.uleb128 0xb
+ 104 001e 0B       		.uleb128 0xb
+ 105 001f 3E       		.uleb128 0x3e
+ 106 0020 0B       		.uleb128 0xb
+ 107 0021 03       		.uleb128 0x3
+ 108 0022 0E       		.uleb128 0xe
+ 109 0023 00       		.byte	0
+ 110 0024 00       		.byte	0
+ 111 0025 00       		.byte	0
+ 112              		.section	.gnu.debuglto_.debug_line,"e",%progbits
+ 113              	.Ldebug_line0:
+ 114 0000 1A000000 		.4byte	.LELT0-.LSLT0
+ 115              	.LSLT0:
+ 116 0004 0400     		.2byte	0x4
+ 117 0006 14000000 		.4byte	.LELTP0-.LASLTP0
+ 118              	.LASLTP0:
+ 119 000a 01       		.byte	0x1
+ 120 000b 01       		.byte	0x1
+ 121 000c 01       		.byte	0x1
+ 122 000d F6       		.byte	0xf6
+ 123 000e F2       		.byte	0xf2
+ 124 000f 0D       		.byte	0xd
+ 125 0010 00       		.byte	0
+ 126 0011 01       		.byte	0x1
+ 127 0012 01       		.byte	0x1
+ 128 0013 01       		.byte	0x1
+ 129 0014 01       		.byte	0x1
+ 130 0015 00       		.byte	0
+ 131 0016 00       		.byte	0
+ 132 0017 00       		.byte	0
+ 133 0018 01       		.byte	0x1
+ 134 0019 00       		.byte	0
+ 135 001a 00       		.byte	0
+ 136 001b 01       		.byte	0x1
+ 137 001c 00       		.byte	0
+ 138 001d 00       		.byte	0
+ 139              	.LELTP0:
+ 140              	.LELT0:
+ 141              		.section	.gnu.debuglto_.debug_str,"eMS",%progbits,1
+ 142              	.LASF0:
+ 143 0000 756E7369 		.ascii	"unsigned int\000"
+ 143      676E6564 
+ 143      20696E74 
+ 143      00
+ 144              	.LASF12:
+ 145 000d 2F686F6D 		.ascii	"/home/jstewart/source/yaemk-split-kb/Firmware\000"
+ 145      652F6A73 
+ 145      74657761 
+ 145      72742F73 
+ 145      6F757263 
+ 146              	.LASF7:
+ 147 003b 6C6F6E67 		.ascii	"long unsigned int\000"
+ 147      20756E73 
+ 147      69676E65 
+ 147      6420696E 
+ 147      7400
+ 148              	.LASF10:
+ 149 004d 474E5520 		.ascii	"GNU C99 10.3.1 20210621 (release) -mcpu=cortex-m4 -"
+ 149      43393920 
+ 149      31302E33 
+ 149      2E312032 
+ 149      30323130 
+ 150 0080 6D746875 		.ascii	"mthumb -mno-thumb-interwork -mno-unaligned-access -"
+ 150      6D62202D 
+ 150      6D6E6F2D 
+ 150      7468756D 
+ 150      622D696E 
+ 151 00b3 6D666C6F 		.ascii	"mfloat-abi=hard -mfpu=fpv4-sp-d16 -march=armv7e-m+f"
+ 151      61742D61 
+ 151      62693D68 
+ 151      61726420 
+ 151      2D6D6670 
+ 152 00e6 70202D67 		.ascii	"p -ggdb -Os -Ofast -std=gnu99 -fsingle-precision-co"
+ 152      67646220 
+ 152      2D4F7320 
+ 152      2D4F6661 
+ 152      7374202D 
+ 153 0119 6E737461 		.ascii	"nstant -fomit-frame-pointer -ffunction-sections -fd"
+ 153      6E74202D 
+ 153      666F6D69 
+ 153      742D6672 
+ 153      616D652D 
+ 154 014c 6174612D 		.ascii	"ata-sections -fshort-wchar -fcommon -flto\000"
+ 154      73656374 
+ 154      696F6E73 
+ 154      202D6673 
+ 154      686F7274 
+ 155              	.LASF2:
+ 156 0176 7369676E 		.ascii	"signed char\000"
+ 156      65642063 
+ 156      68617200 
+ 157              	.LASF3:
+ 158 0182 73686F72 		.ascii	"short int\000"
+ 158      7420696E 
+ 158      7400
+ 159              	.LASF8:
+ 160 018c 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 160      206C6F6E 
+ 160      6720756E 
+ 160      7369676E 
+ 160      65642069 
+ 161              	.LASF6:
+ 162 01a3 756E7369 		.ascii	"unsigned char\000"
+ 162      676E6564 
+ 162      20636861 
+ 162      7200
+ 163              	.LASF4:
+ 164 01b1 6C6F6E67 		.ascii	"long int\000"
+ 164      20696E74 
+ 164      00
+ 165              	.LASF11:
+ 166 01ba 6C69622F 		.ascii	"lib/chibios/os/oslib/src/chobjcaches.c\000"
+ 166      63686962 
+ 166      696F732F 
+ 166      6F732F6F 
+ 166      736C6962 
+ 167              	.LASF9:
+ 168 01e1 63686172 		.ascii	"char\000"
+ 168      00
+ 169              	.LASF1:
+ 170 01e6 73686F72 		.ascii	"short unsigned int\000"
+ 170      7420756E 
+ 170      7369676E 
+ 170      65642069 
+ 170      6E7400
+ 171              	.LASF5:
+ 172 01f9 6C6F6E67 		.ascii	"long long int\000"
+ 172      206C6F6E 
+ 172      6720696E 
+ 172      7400
+ 173              		.text
+ 174              		.section	.gnu.lto_.profile.184f242f0bc521f4,"e",%progbits
+ 175 0000 789C6362 		.ascii	"x\234cb\000\001\000\000\022\000\003"
+ 175      00010000 
+ 175      120003
+ 176              		.text
+ 177              		.section	.gnu.lto_.icf.184f242f0bc521f4,"e",%progbits
+ 178 0000 789C6362 		.ascii	"x\234cb@\006\000\000*\000\003"
+ 178      40060000 
+ 178      2A0003
+ 179              		.text
+ 180              		.section	.gnu.lto_.ipa_sra.184f242f0bc521f4,"e",%progbits
+ 181 0000 789C6362 		.ascii	"x\234cb@\006\000\000*\000\003"
+ 181      40060000 
+ 181      2A0003
+ 182              		.text
+ 183              		.section	.gnu.lto_.inline.184f242f0bc521f4,"e",%progbits
+ 184 0000 789C6362 		.ascii	"x\234cb@\006\000\000*\000\003"
+ 184      40060000 
+ 184      2A0003
+ 185              		.text
+ 186              		.section	.gnu.lto_.jmpfuncs.184f242f0bc521f4,"e",%progbits
+ 187 0000 789C6362 		.ascii	"x\234cb@\006\000\000*\000\003"
+ 187      40060000 
+ 187      2A0003
+ 188              		.text
+ 189              		.section	.gnu.lto_.pureconst.184f242f0bc521f4,"e",%progbits
+ 190 0000 789C6364 		.ascii	"x\234cd\000\002\000\000\012\000\002"
+ 190      00020000 
+ 190      0A0002
+ 191              		.text
+ 192              		.section	.gnu.lto_.lto.184f242f0bc521f4,"e",%progbits
+ 193 0000 09000400 		.ascii	"\011\000\004\000\001\000\000\000"
+ 193      01000000 
+ 194              		.text
+ 195              		.section	.gnu.lto_.symbol_nodes.184f242f0bc521f4,"e",%progbits
+ 196 0000 789C6362 		.ascii	"x\234cb\000\001\000\000\022\000\003"
+ 196      00010000 
+ 196      120003
+ 197              		.text
+ 198              		.section	.gnu.lto_.refs.184f242f0bc521f4,"e",%progbits
+ 199 0000 789C6364 		.ascii	"x\234cd\000\002\000\000\012\000\002"
+ 199      00020000 
+ 199      0A0002
+ 200              		.text
+ 201              		.section	.gnu.lto_.decls.184f242f0bc521f4,"e",%progbits
+ 202 0000 789C6360 		.ascii	"x\234c````\004b\025 \376\017\004 \366E\006\002\000\000"
+ 202      60606004 
+ 202      621520FE 
+ 202      0F0420F6 
+ 202      45060200 
+ 203 0015 BF3204F4 		.ascii	"\2772\004\364"
+ 204              		.text
+ 205              		.section	.gnu.lto_.symtab.184f242f0bc521f4,"e",%progbits
+ 206              		.text
+ 207              		.section	.gnu.lto_.ext_symtab.184f242f0bc521f4,"e",%progbits
+ 208 0000 01       		.ascii	"\001"
+ 209              		.text
+ 210              		.section	.gnu.lto_.opts,"e",%progbits
+ 211 0000 272D666E 		.ascii	"'-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-prote"
+ 211      6F2D6F70 
+ 211      656E6D70 
+ 211      2720272D 
+ 211      666E6F2D 
+ 212 0033 6374696F 		.ascii	"ction=none' '-g' '-mcpu=cortex-m4' '-mthumb' '-mno-"
+ 212      6E3D6E6F 
+ 212      6E652720 
+ 212      272D6727 
+ 212      20272D6D 
+ 213 0066 7468756D 		.ascii	"thumb-interwork' '-mno-unaligned-access' '-mfloat-a"
+ 213      622D696E 
+ 213      74657277 
+ 213      6F726B27 
+ 213      20272D6D 
+ 214 0099 62693D68 		.ascii	"bi=hard' '-mfpu=fpv4-sp-d16' '-mlibarch=armv7e-m+fp"
+ 214      61726427 
+ 214      20272D6D 
+ 214      6670753D 
+ 214      66707634 
+ 215 00cc 2720272D 		.ascii	"' '-march=armv7e-m+fp' '-Os' '-Ofast' '-fsingle-pre"
+ 215      6D617263 
+ 215      683D6172 
+ 215      6D763765 
+ 215      2D6D2B66 
+ 216 00ff 63697369 		.ascii	"cision-constant' '-fomit-frame-pointer' '-ffunction"
+ 216      6F6E2D63 
+ 216      6F6E7374 
+ 216      616E7427 
+ 216      20272D66 
+ 217 0132 2D736563 		.ascii	"-sections' '-fdata-sections' '-fshort-wchar' '-fcom"
+ 217      74696F6E 
+ 217      73272027 
+ 217      2D666461 
+ 217      74612D73 
+ 218 0165 6D6F6E27 		.ascii	"mon' '-flto' '-Xassembler' '-adhlns=.build/obj_karl"
+ 218      20272D66 
+ 218      6C746F27 
+ 218      20272D58 
+ 218      61737365 
+ 219 0198 6B39305F 		.ascii	"k90_yaemk_moonlanderlike/./lib/chibios/os/oslib/src"
+ 219      7961656D 
+ 219      6B5F6D6F 
+ 219      6F6E6C61 
+ 219      6E646572 
+ 220 01cb 2F63686F 		.ascii	"/chobjcaches.lst'\000"
+ 220      626A6361 
+ 220      63686573 
+ 220      2E6C7374 
+ 220      2700
+ 221              		.text
+ 222              		.comm	__gnu_lto_slim,1,1
+ 223              		.ident	"GCC: (15:10.3-2021.07-4) 10.3.1 20210621 (release)"
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 chobjcaches.c
+     /tmp/ccBrt8Rv.s:16     .gnu.debuglto_.debug_info:0000000000000000 chobjcaches.c.f3ab4630
+                            *COM*:0000000000000001 __gnu_lto_slim
+
+NO UNDEFINED SYMBOLS

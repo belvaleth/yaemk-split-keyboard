@@ -1,0 +1,497 @@
+   1              		.cpu cortex-m4
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 23, 1
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 2
+   9              		.eabi_attribute 34, 0
+  10              		.eabi_attribute 18, 2
+  11              		.file	"lib8tion.c"
+  12              		.file 1 "/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h"
+  13              		.file 2 "lib/lib8tion/lib8tion.c"
+  14              		.section	.gnu.debuglto_.debug_info,"e",%progbits
+  15              	.Ldebug_info0:
+  16              		.hidden	lib8tion.c.621e4237
+  17              		.weak	lib8tion.c.621e4237
+  18              	lib8tion.c.621e4237:
+  19 0000 78000000 		.4byte	0x78
+  20 0004 0400     		.2byte	0x4
+  21 0006 00000000 		.4byte	.Ldebug_abbrev0
+  22 000a 04       		.byte	0x4
+  23 000b 01       		.uleb128 0x1
+  24 000c 5C000000 		.4byte	.LASF9
+  25 0010 0C       		.byte	0xc
+  26 0011 1B000000 		.4byte	.LASF10
+  27 0015 93010000 		.4byte	.LASF11
+  28 0019 00000000 		.4byte	.Ldebug_line0
+  29 001d 02       		.uleb128 0x2
+  30 001e 01       		.byte	0x1
+  31 001f 06       		.byte	0x6
+  32 0020 DD010000 		.4byte	.LASF0
+  33 0024 02       		.uleb128 0x2
+  34 0025 02       		.byte	0x2
+  35 0026 05       		.byte	0x5
+  36 0027 F2010000 		.4byte	.LASF1
+  37 002b 02       		.uleb128 0x2
+  38 002c 04       		.byte	0x4
+  39 002d 05       		.byte	0x5
+  40 002e C1010000 		.4byte	.LASF2
+  41 0032 02       		.uleb128 0x2
+  42 0033 08       		.byte	0x8
+  43 0034 05       		.byte	0x5
+  44 0035 00000000 		.4byte	.LASF3
+  45 0039 02       		.uleb128 0x2
+  46 003a 01       		.byte	0x1
+  47 003b 08       		.byte	0x8
+  48 003c 85010000 		.4byte	.LASF4
+  49 0040 03       		.uleb128 0x3
+  50 0041 E9010000 		.4byte	.LASF12
+  51 0045 01       		.byte	0x1
+  52 0046 31       		.byte	0x31
+  53 0047 19       		.byte	0x19
+  54 0048 4C000000 		.4byte	0x4c
+  55 004c 02       		.uleb128 0x2
+  56 004d 02       		.byte	0x2
+  57 004e 07       		.byte	0x7
+  58 004f CA010000 		.4byte	.LASF5
+  59 0053 02       		.uleb128 0x2
+  60 0054 04       		.byte	0x4
+  61 0055 07       		.byte	0x7
+  62 0056 33000000 		.4byte	.LASF6
+  63 005a 02       		.uleb128 0x2
+  64 005b 08       		.byte	0x8
+  65 005c 07       		.byte	0x7
+  66 005d 45000000 		.4byte	.LASF7
+  67 0061 04       		.uleb128 0x4
+  68 0062 04       		.byte	0x4
+  69 0063 05       		.byte	0x5
+  70 0064 696E7400 		.ascii	"int\000"
+  71 0068 02       		.uleb128 0x2
+  72 0069 04       		.byte	0x4
+  73 006a 07       		.byte	0x7
+  74 006b 0E000000 		.4byte	.LASF8
+  75 006f 05       		.uleb128 0x5
+  76 0070 FC010000 		.4byte	.LASF13
+  77 0074 02       		.byte	0x2
+  78 0075 05       		.byte	0x5
+  79 0076 0A       		.byte	0xa
+  80 0077 40000000 		.4byte	0x40
+  81 007b 00       		.byte	0
+  82              		.section	.gnu.debuglto_.debug_abbrev,"e",%progbits
+  83              	.Ldebug_abbrev0:
+  84 0000 01       		.uleb128 0x1
+  85 0001 11       		.uleb128 0x11
+  86 0002 01       		.byte	0x1
+  87 0003 25       		.uleb128 0x25
+  88 0004 0E       		.uleb128 0xe
+  89 0005 13       		.uleb128 0x13
+  90 0006 0B       		.uleb128 0xb
+  91 0007 03       		.uleb128 0x3
+  92 0008 0E       		.uleb128 0xe
+  93 0009 1B       		.uleb128 0x1b
+  94 000a 0E       		.uleb128 0xe
+  95 000b 10       		.uleb128 0x10
+  96 000c 17       		.uleb128 0x17
+  97 000d 00       		.byte	0
+  98 000e 00       		.byte	0
+  99 000f 02       		.uleb128 0x2
+ 100 0010 24       		.uleb128 0x24
+ 101 0011 00       		.byte	0
+ 102 0012 0B       		.uleb128 0xb
+ 103 0013 0B       		.uleb128 0xb
+ 104 0014 3E       		.uleb128 0x3e
+ 105 0015 0B       		.uleb128 0xb
+ 106 0016 03       		.uleb128 0x3
+ 107 0017 0E       		.uleb128 0xe
+ 108 0018 00       		.byte	0
+ 109 0019 00       		.byte	0
+ 110 001a 03       		.uleb128 0x3
+ 111 001b 16       		.uleb128 0x16
+ 112 001c 00       		.byte	0
+ 113 001d 03       		.uleb128 0x3
+ 114 001e 0E       		.uleb128 0xe
+ 115 001f 3A       		.uleb128 0x3a
+ 116 0020 0B       		.uleb128 0xb
+ 117 0021 3B       		.uleb128 0x3b
+ 118 0022 0B       		.uleb128 0xb
+ 119 0023 39       		.uleb128 0x39
+ 120 0024 0B       		.uleb128 0xb
+ 121 0025 49       		.uleb128 0x49
+ 122 0026 13       		.uleb128 0x13
+ 123 0027 00       		.byte	0
+ 124 0028 00       		.byte	0
+ 125 0029 04       		.uleb128 0x4
+ 126 002a 24       		.uleb128 0x24
+ 127 002b 00       		.byte	0
+ 128 002c 0B       		.uleb128 0xb
+ 129 002d 0B       		.uleb128 0xb
+ 130 002e 3E       		.uleb128 0x3e
+ 131 002f 0B       		.uleb128 0xb
+ 132 0030 03       		.uleb128 0x3
+ 133 0031 08       		.uleb128 0x8
+ 134 0032 00       		.byte	0
+ 135 0033 00       		.byte	0
+ 136 0034 05       		.uleb128 0x5
+ 137 0035 34       		.uleb128 0x34
+ 138 0036 00       		.byte	0
+ 139 0037 03       		.uleb128 0x3
+ 140 0038 0E       		.uleb128 0xe
+ 141 0039 3A       		.uleb128 0x3a
+ 142 003a 0B       		.uleb128 0xb
+ 143 003b 3B       		.uleb128 0x3b
+ 144 003c 0B       		.uleb128 0xb
+ 145 003d 39       		.uleb128 0x39
+ 146 003e 0B       		.uleb128 0xb
+ 147 003f 49       		.uleb128 0x49
+ 148 0040 13       		.uleb128 0x13
+ 149 0041 3F       		.uleb128 0x3f
+ 150 0042 19       		.uleb128 0x19
+ 151 0043 00       		.byte	0
+ 152 0044 00       		.byte	0
+ 153 0045 00       		.byte	0
+ 154              		.section	.gnu.debuglto_.debug_line,"e",%progbits
+ 155              	.Ldebug_line0:
+ 156 0000 6B000000 		.4byte	.LELT0-.LSLT0
+ 157              	.LSLT0:
+ 158 0004 0400     		.2byte	0x4
+ 159 0006 65000000 		.4byte	.LELTP0-.LASLTP0
+ 160              	.LASLTP0:
+ 161 000a 01       		.byte	0x1
+ 162 000b 01       		.byte	0x1
+ 163 000c 01       		.byte	0x1
+ 164 000d F6       		.byte	0xf6
+ 165 000e F2       		.byte	0xf2
+ 166 000f 0D       		.byte	0xd
+ 167 0010 00       		.byte	0
+ 168 0011 01       		.byte	0x1
+ 169 0012 01       		.byte	0x1
+ 170 0013 01       		.byte	0x1
+ 171 0014 01       		.byte	0x1
+ 172 0015 00       		.byte	0
+ 173 0016 00       		.byte	0
+ 174 0017 00       		.byte	0
+ 175 0018 01       		.byte	0x1
+ 176 0019 00       		.byte	0
+ 177 001a 00       		.byte	0
+ 178 001b 01       		.byte	0x1
+ 179 001c 6C69622F 		.ascii	"lib/lib8tion"
+ 179      6C696238 
+ 179      74696F6E 
+ 180 0028 00       		.byte	0
+ 181 0029 2F757372 		.ascii	"/usr/lib/gcc/arm-none-eabi/10.3.1/include"
+ 181      2F6C6962 
+ 181      2F676363 
+ 181      2F61726D 
+ 181      2D6E6F6E 
+ 182 0052 00       		.byte	0
+ 183 0053 00       		.byte	0
+ 184 0054 73746469 		.ascii	"stdint.h\000"
+ 184      6E742E68 
+ 184      00
+ 185 005d 02       		.uleb128 0x2
+ 186 005e 00       		.uleb128 0
+ 187 005f 00       		.uleb128 0
+ 188 0060 6C696238 		.ascii	"lib8tion.c\000"
+ 188      74696F6E 
+ 188      2E6300
+ 189 006b 01       		.uleb128 0x1
+ 190 006c 00       		.uleb128 0
+ 191 006d 00       		.uleb128 0
+ 192 006e 00       		.byte	0
+ 193              	.LELTP0:
+ 194              	.LELT0:
+ 195              		.section	.gnu.debuglto_.debug_str,"eMS",%progbits,1
+ 196              	.LASF3:
+ 197 0000 6C6F6E67 		.ascii	"long long int\000"
+ 197      206C6F6E 
+ 197      6720696E 
+ 197      7400
+ 198              	.LASF8:
+ 199 000e 756E7369 		.ascii	"unsigned int\000"
+ 199      676E6564 
+ 199      20696E74 
+ 199      00
+ 200              	.LASF10:
+ 201 001b 6C69622F 		.ascii	"lib/lib8tion/lib8tion.c\000"
+ 201      6C696238 
+ 201      74696F6E 
+ 201      2F6C6962 
+ 201      3874696F 
+ 202              	.LASF6:
+ 203 0033 6C6F6E67 		.ascii	"long unsigned int\000"
+ 203      20756E73 
+ 203      69676E65 
+ 203      6420696E 
+ 203      7400
+ 204              	.LASF7:
+ 205 0045 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 205      206C6F6E 
+ 205      6720756E 
+ 205      7369676E 
+ 205      65642069 
+ 206              	.LASF9:
+ 207 005c 474E5520 		.ascii	"GNU C99 10.3.1 20210621 (release) -mcpu=cortex-m4 -"
+ 207      43393920 
+ 207      31302E33 
+ 207      2E312032 
+ 207      30323130 
+ 208 008f 6D746875 		.ascii	"mthumb -mno-thumb-interwork -mno-unaligned-access -"
+ 208      6D62202D 
+ 208      6D6E6F2D 
+ 208      7468756D 
+ 208      622D696E 
+ 209 00c2 6D666C6F 		.ascii	"mfloat-abi=hard -mfpu=fpv4-sp-d16 -march=armv7e-m+f"
+ 209      61742D61 
+ 209      62693D68 
+ 209      61726420 
+ 209      2D6D6670 
+ 210 00f5 70202D67 		.ascii	"p -ggdb -Os -Ofast -std=gnu99 -fsingle-precision-co"
+ 210      67646220 
+ 210      2D4F7320 
+ 210      2D4F6661 
+ 210      7374202D 
+ 211 0128 6E737461 		.ascii	"nstant -fomit-frame-pointer -ffunction-sections -fd"
+ 211      6E74202D 
+ 211      666F6D69 
+ 211      742D6672 
+ 211      616D652D 
+ 212 015b 6174612D 		.ascii	"ata-sections -fshort-wchar -fcommon -flto\000"
+ 212      73656374 
+ 212      696F6E73 
+ 212      202D6673 
+ 212      686F7274 
+ 213              	.LASF4:
+ 214 0185 756E7369 		.ascii	"unsigned char\000"
+ 214      676E6564 
+ 214      20636861 
+ 214      7200
+ 215              	.LASF11:
+ 216 0193 2F686F6D 		.ascii	"/home/jstewart/source/yaemk-split-kb/Firmware\000"
+ 216      652F6A73 
+ 216      74657761 
+ 216      72742F73 
+ 216      6F757263 
+ 217              	.LASF2:
+ 218 01c1 6C6F6E67 		.ascii	"long int\000"
+ 218      20696E74 
+ 218      00
+ 219              	.LASF5:
+ 220 01ca 73686F72 		.ascii	"short unsigned int\000"
+ 220      7420756E 
+ 220      7369676E 
+ 220      65642069 
+ 220      6E7400
+ 221              	.LASF0:
+ 222 01dd 7369676E 		.ascii	"signed char\000"
+ 222      65642063 
+ 222      68617200 
+ 223              	.LASF12:
+ 224 01e9 75696E74 		.ascii	"uint16_t\000"
+ 224      31365F74 
+ 224      00
+ 225              	.LASF1:
+ 226 01f2 73686F72 		.ascii	"short int\000"
+ 226      7420696E 
+ 226      7400
+ 227              	.LASF13:
+ 228 01fc 72616E64 		.ascii	"rand16seed\000"
+ 228      31367365 
+ 228      656400
+ 229              		.text
+ 230              		.section	.gnu.lto_.profile.86ae5f7b16ed99a,"e",%progbits
+ 231 0000 789C6362 		.ascii	"x\234cb\000\001\000\000\022\000\003"
+ 231      00010000 
+ 231      120003
+ 232              		.text
+ 233              		.section	.gnu.lto_.icf.86ae5f7b16ed99a,"e",%progbits
+ 234 0000 789CE360 		.ascii	"x\234\343`@\000F\206\203\333Z721\000\000\014\373\002"
+ 234      40004686 
+ 234      83DB5A37 
+ 234      32310000 
+ 234      0CFB02
+ 235 0013 B9       		.ascii	"\271"
+ 236              		.text
+ 237              		.section	.gnu.lto_.ipa_sra.86ae5f7b16ed99a,"e",%progbits
+ 238 0000 789C6362 		.ascii	"x\234cb@\006\000\000*\000\003"
+ 238      40060000 
+ 238      2A0003
+ 239              		.text
+ 240              		.section	.gnu.lto_.inline.86ae5f7b16ed99a,"e",%progbits
+ 241 0000 789C6362 		.ascii	"x\234cb@\006\000\000*\000\003"
+ 241      40060000 
+ 241      2A0003
+ 242              		.text
+ 243              		.section	.gnu.lto_.jmpfuncs.86ae5f7b16ed99a,"e",%progbits
+ 244 0000 789C6362 		.ascii	"x\234cb@\006\000\000*\000\003"
+ 244      40060000 
+ 244      2A0003
+ 245              		.text
+ 246              		.section	.gnu.lto_.pureconst.86ae5f7b16ed99a,"e",%progbits
+ 247 0000 789C6364 		.ascii	"x\234cd\000\002\000\000\012\000\002"
+ 247      00020000 
+ 247      0A0002
+ 248              		.text
+ 249              		.section	.gnu.lto_.lto.86ae5f7b16ed99a,"e",%progbits
+ 250 0000 09000400 		.ascii	"\011\000\004\000\001\000\000\000"
+ 250      01000000 
+ 251              		.text
+ 252              		.section	.gnu.lto_.symbol_nodes.86ae5f7b16ed99a,"e",%progbits
+ 253 0000 789CE362 		.ascii	"x\234\343b\000\002V\006\206F'\020\003\000\005\027\000"
+ 253      00025606 
+ 253      86462710 
+ 253      03000517 
+ 253      00
+ 254 0011 D3       		.ascii	"\323"
+ 255              		.text
+ 256              		.section	.gnu.lto_.refs.86ae5f7b16ed99a,"e",%progbits
+ 257 0000 789C6364 		.ascii	"x\234cd\000\002\000\000\012\000\002"
+ 257      00020000 
+ 257      0A0002
+ 258              		.text
+ 259              		.section	.gnu.lto_.decls.86ae5f7b16ed99a,"e",%progbits
+ 260 0000 789C9BCA 		.ascii	"x\234\233\312\300\3000\031\2105\200\370?\0200\002\351"
+ 260      C0C03019 
+ 260      883580F8 
+ 260      3F103002 
+ 260      E9
+ 261 0011 8B0CA800 		.ascii	"\213\014\250\000$\266\017Ml\0223\243\032\343\377\377"
+ 261      24B60F4D 
+ 261      6C1233A3 
+ 261      1AE3FFFF 
+ 262 0021 CC609A81 		.ascii	"\314`\232\201\231\211A\277\001\014\016\36110nc\004+"
+ 262      998941BF 
+ 262      010C0EF1 
+ 262      31306E63 
+ 262      042B
+ 263 0033 51E666B6 		.ascii	"Q\346f\266\000\251\023bd\002\222\"\214\002\263\231\231"
+ 263      00A91362 
+ 263      64029222 
+ 263      8C02B399 
+ 263      99
+ 264 0044 BEB7AD98 		.ascii	"\276\267\255\230\307\315u\240\241\341M\303\201&V\006"
+ 264      C7CD75A0 
+ 264      A1E14DC3 
+ 264      81265606 
+ 265 0054 C65D8C8C 		.ascii	"\306]\214\214;\031\031\030w0\002M\331\316\310\270\225"
+ 265      3B191918 
+ 265      7730024D 
+ 265      D9CEC8B8 
+ 265      95
+ 266 0065 91710B23 		.ascii	"\221q\013#P\361n\2400\027\263#\003P\307\364\276ogXT"
+ 266      50F16EA0 
+ 266      3017B323 
+ 266      0350C7F4 
+ 266      BE6F6758 
+ 267 007a 6F4C68F8 		.ascii	"oLh\370\261\363\330\337\205\232\033\233\0334@\322{\031"
+ 267      B1F3D8DF 
+ 267      859A1B9B 
+ 267      1B3440D2 
+ 267      7B19
+ 268 008c 41EA21DA 		.ascii	"A\352!\332\031@\274=\214\312\371\014\3429\231I\372@"
+ 268      1940BC3D 
+ 268      8CCAF90C 
+ 268      E2399949 
+ 268      FA40
+ 269 009e 6C519299 		.ascii	"lQ\222\231\237\007g\350%s\270\373\205*8[Z2\210 \304"
+ 269      9F0767E8 
+ 269      2573B8FB 
+ 269      852A385B 
+ 269      5A328820 
+ 270 00b3 F4CC8C0C 		.ascii	"\364\314\214\014SM\214\214\315\0318J3\363J\014\315\342"
+ 270      534D8C8C 
+ 270      CD19384A 
+ 270      33F34A0C 
+ 270      CDE2
+ 271 00c5 4BB88A12 		.ascii	"K\270\212\022\363R\014\315\212SSS\364\3643\362sS\365"
+ 271      F3520CCD 
+ 271      8A535353 
+ 271      F4F433F2 
+ 271      7353F5
+ 272 00d8 B38A4B52 		.ascii	"\263\212KR\313\023\213J\364\213\363K\213\222S\365+\023"
+ 272      CB138B4A 
+ 272      F48BF34B 
+ 272      8B9253F5 
+ 272      2B13
+ 273 00ea 5373B375 		.ascii	"Ss\263u\213\013r2Kt\263\223\364\3352\213r\201\322\251"
+ 273      8B0B7232 
+ 273      4B74B393 
+ 273      F4DD328B 
+ 273      7281D2A9 
+ 274 00fe 0C12382C 		.ascii	"\014\0228,f\000\000YLa\353"
+ 274      66000059 
+ 274      4C61EB
+ 275              		.text
+ 276              		.section	.gnu.lto_.symtab.86ae5f7b16ed99a,"e",%progbits
+ 277 0000 72616E64 		.ascii	"rand16seed\000"
+ 277      31367365 
+ 277      656400
+ 278 000b 00       		.ascii	"\000"
+ 279 000c 00       		.ascii	"\000"
+ 280 000d 00       		.ascii	"\000"
+ 281 000e 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
+ 281      00000000 
+ 282 0016 BE000000 		.ascii	"\276\000\000\000"
+ 283              		.text
+ 284              		.section	.gnu.lto_.ext_symtab.86ae5f7b16ed99a,"e",%progbits
+ 285 0000 01       		.ascii	"\001"
+ 286 0001 02       		.ascii	"\002"
+ 287 0002 00       		.ascii	"\000"
+ 288              		.text
+ 289              		.section	.gnu.lto_.opts,"e",%progbits
+ 290 0000 272D666E 		.ascii	"'-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-prote"
+ 290      6F2D6F70 
+ 290      656E6D70 
+ 290      2720272D 
+ 290      666E6F2D 
+ 291 0033 6374696F 		.ascii	"ction=none' '-g' '-mcpu=cortex-m4' '-mthumb' '-mno-"
+ 291      6E3D6E6F 
+ 291      6E652720 
+ 291      272D6727 
+ 291      20272D6D 
+ 292 0066 7468756D 		.ascii	"thumb-interwork' '-mno-unaligned-access' '-mfloat-a"
+ 292      622D696E 
+ 292      74657277 
+ 292      6F726B27 
+ 292      20272D6D 
+ 293 0099 62693D68 		.ascii	"bi=hard' '-mfpu=fpv4-sp-d16' '-mlibarch=armv7e-m+fp"
+ 293      61726427 
+ 293      20272D6D 
+ 293      6670753D 
+ 293      66707634 
+ 294 00cc 2720272D 		.ascii	"' '-march=armv7e-m+fp' '-Os' '-Ofast' '-fsingle-pre"
+ 294      6D617263 
+ 294      683D6172 
+ 294      6D763765 
+ 294      2D6D2B66 
+ 295 00ff 63697369 		.ascii	"cision-constant' '-fomit-frame-pointer' '-ffunction"
+ 295      6F6E2D63 
+ 295      6F6E7374 
+ 295      616E7427 
+ 295      20272D66 
+ 296 0132 2D736563 		.ascii	"-sections' '-fdata-sections' '-fshort-wchar' '-fcom"
+ 296      74696F6E 
+ 296      73272027 
+ 296      2D666461 
+ 296      74612D73 
+ 297 0165 6D6F6E27 		.ascii	"mon' '-flto' '-Xassembler' '-adhlns=.build/obj_karl"
+ 297      20272D66 
+ 297      6C746F27 
+ 297      20272D58 
+ 297      61737365 
+ 298 0198 6B39305F 		.ascii	"k90_yaemk_moonlanderlike/lib/lib8tion/lib8tion.lst'"
+ 298      7961656D 
+ 298      6B5F6D6F 
+ 298      6F6E6C61 
+ 298      6E646572 
+ 299 01cb 00       		.ascii	"\000"
+ 300              		.text
+ 301              		.comm	__gnu_lto_slim,1,1
+ 302              		.ident	"GCC: (15:10.3-2021.07-4) 10.3.1 20210621 (release)"
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 lib8tion.c
+     /tmp/ccNOr4P8.s:18     .gnu.debuglto_.debug_info:0000000000000000 lib8tion.c.621e4237
+                            *COM*:0000000000000001 __gnu_lto_slim
+
+NO UNDEFINED SYMBOLS
